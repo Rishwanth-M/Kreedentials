@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { COLORS } from "../lib/constants";
-import Loader from "../Components/Loader";
+import Loader from "../components/Loader";
 
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
